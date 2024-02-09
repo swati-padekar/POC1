@@ -1,0 +1,275 @@
+.Performance-root{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    background: #f5f5f5;
+  }
+  
+  #workbenchCommandBar {
+    display: none !important;
+  }
+  
+  #sp-appBar {
+    display: none !important;
+  }
+  
+  #SuiteNavWrapper {
+    background-color: #333;
+    width: 100%;
+    z-index: 12;
+    display: none !important;
+  }
+  
+  #workbenchCommandBar {
+    display: none;
+  }
+  
+  .i_a_8474018e {
+    border: 1px solid #e5e5e5;
+    border-bottom: 0;
+    flex-basis: 0;
+    margin: 15px auto 0;
+    max-width: 100% !important;
+    min-height: 0;
+  }
+  
+  
+  .i_a_8474018e,
+  [dir=rtl] .i_a_8474018e {
+    right: 0 !important;
+  }
+  
+  .i_a_8474018e {
+    left: 0 !important;
+  }
+  
+  .m_b_8474018e {
+    overflow-y: auto;
+    padding: 0 !important;
+    transition: margin-right .6s ease;
+    -webkit-transition: margin-right .6s ease;
+  }
+  
+  .i_a_8474018e {
+    border: 1px solid #e5e5e5;
+    border-bottom: 0;
+    flex-basis: 0;
+    margin: 0 !important;
+    max-width: 100% !important;
+    min-height: 0;
+  }
+  
+  .CanvasComponent.LCS .Canvas--edit.Canvas--withLayout {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* CSS of tree...... */
+ html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: sans-serif;
+    max-width: 350px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body > details {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  body > details summary {
+    color: white;
+    padding: 8px;
+    background-color: #174378;
+    border: 1px solid #174378;
+    border-radius: 3px;
+  }
+  
+  body > details > details {
+    margin: 5px 0;
+    margin-left: 15px;
+    position: relative;
+  }
+  
+  body > details > details::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 1px;
+    height: calc(36px + 10px);
+    background-color: #c7d3df;
+  }
+  
+  body > details > details:last-child::after {
+    height: calc(36px / 2 + 5px);
+  }
+  
+  body > details > details::before {
+    content: "";
+    position: absolute;
+    top: calc(36px / 2);
+    left: -10px;
+    width: 8px;
+    height: 1px;
+    background-color: #c7d3df;
+  }
+  
+  body > details[open]:not(:last-child)::after {
+    height: calc(100% + 5px);
+  }
+  
+  body > details > details summary {
+    color: white;
+    padding: 8px;
+    background-color: #174378;
+    border: 1px solid #174378;
+    border-radius: 3px;
+  }
+  
+  body > details > details > details {
+    margin: 5px 0;
+    margin-left: 15px;
+    position: relative;
+  }
+  
+  body > details > details > details::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 1px;
+    height: calc(28px + 10px);
+    background-color: #c7d3df;
+  }
+  
+  body > details > details > details:last-child::after {
+    height: calc(28px / 2 + 5px);
+  }
+  
+  body > details > details > details::before {
+    content: "";
+    position: absolute;
+    top: calc(28px / 2);
+    left: -10px;
+    width: 8px;
+    height: 1px;
+    background-color: #c7d3df;
+  }
+  
+  body > details > details[open]:not(:last-child)::after {
+    height: calc(100% + 5px);
+  }
+  
+  body > details > details summary {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #dfe7ec;
+    border: 1px solid #c7d3df;
+    border-radius: 3px;
+    color: #545f69;
+    position: relative;
+  }
+  
+  body > details > details summary span {
+    color: #041320;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #dfe7ec;
+    border: 1px solid #c7d3df;
+    border-radius: 3px;
+    color: #545f69;
+    position: relative;
+  }
+  
+  li::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 1px;
+    height: calc(28px + 10px);
+    background-color: #c7d3df;
+  }
+  
+  li:last-child::after {
+    height: calc(28px / 2 + 5px);
+  }
+  
+  li::before {
+    content: "";
+    position: absolute;
+    top: calc(28px / 2);
+    left: -10px;
+    width: 8px;
+    height: 1px;
+    background-color: #c7d3df;
+  }
+  
+  
+  /* DRAWER CSS */
+  .drawer-container {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Start with the drawer closed outside the viewport */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    transition: right 0.3s ease;
+  }
+  
+  .drawer-container.open {
+    right: 0; /* Move the drawer to the right when open */
+  }
+  
+  .drawer-content {
+    padding: 16px;
+  }
+  
+  .toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
