@@ -203,13 +203,13 @@
     color: #041320;
   }
   
-  ul {
+  .ullist {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  li {
+  .listli {
     margin: 5px 0;
     padding: 5px 10px;
     background-color: #dfe7ec;
@@ -219,7 +219,7 @@
     position: relative;
   }
   
-  li::after {
+  .listli::after {
     content: "";
     position: absolute;
     top: -5px;
@@ -229,11 +229,11 @@
     background-color: #c7d3df;
   }
   
-  li:last-child::after {
+  .listli:last-child::after {
     height: calc(28px / 2 + 5px);
   }
   
-  li::before {
+  .listli::before {
     content: "";
     position: absolute;
     top: calc(28px / 2);
@@ -272,4 +272,26 @@
     color: #fff;
     border: none;
     cursor: pointer;
+  }
+  .ulmargin{
+    padding-left: 1rem !important;
+    list-style: none !important;
+  }
+  .scroll{
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .fixheader{
+    position: sticky;
+    top: 0;
+  }
+  .CloseDrawer{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .documentColor{
+    background-color: forestgreen !important;
+    color: white !important;
   }
