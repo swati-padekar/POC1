@@ -259,8 +259,11 @@ function SiteTree() {
                         {/* Your drawer content goes here */}
                         <h3>Document Details</h3>
                         <hr />
-                        <p><span className='fw-bold'>Name:</span> Lorem ispum</p>
-                        <p><span className='fw-bold'>Size:</span> 2Mb</p>
+                        <p><span className='fw-bold'>Document Name:</span> Lorem ispum</p>
+                        <p><span className='fw-bold'>Document Version:</span> Lorem ispum</p>
+                        <p><span className='fw-bold'>Document Type:</span> Lorem ispum</p>
+
+                        <p><span className='fw-bold'>Size:</span> 10Mb</p>
                         <p><span className='fw-bold'>Description:</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                     </div>
 
